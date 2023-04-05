@@ -1,0 +1,96 @@
+.line {
+  height: 2px;
+}
+.bgimg {
+  z-index: -20;
+}
+.beforeStyle {
+  z-index: 10;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.beforeStyle::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: -10;
+  transition: all 0.3s ease-in-out;
+}
+
+.beforeStyle:hover::before {
+  height: 0;
+  transition: all 0.3s ease-in-out;
+}
+.beforeStyle:hover h1 {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.beforeStyle:hover span {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutIcon {
+  z-index: 100;
+}
+.aboutbg {
+  z-index: -100;
+}
+.benifit {
+  z-index: -100000;
+}
+.beniftImg {
+  z-index: 100;
+}
+.benifitbg {
+  z-index: -1;
+}
+.boxbg {
+  z-index: 2;
+}
+.rowHeight {
+  height: 1px;
+}
+
+.rota {
+  transform: rotate(45deg);
+}
+.card {
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.cardbody {
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.card:hover .cardbody {
+  height: 0;
+  transition: all 0.3s ease;
+}
+.card:hover h1 {
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+.imgbx {
+  transition: all 0.3s ease;
+}
+.card:hover .imgbx {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.674);
+  transition: all 0.3s ease;
+}
+
+.filter {
+  -webkit-filter: brightness(110%) contrast(110%) grayscale(100%) sepia(30%);
+  filter: brightness(110%) contrast(110%) grayscale(100%) sepia(30%);
+  cursor: pointer;
+  margin: 0 auto;
+}
+.filter:hover {
+  filter: none;
+}

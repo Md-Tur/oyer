@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+.recuritment {
+  font-family: "Poppins", sans-serif;
+}
+
+.over {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.moveBg {
+  left: 0;
+}
+.card {
+  background: #ffffff34;
+}
+.rota {
+  transform: rotate(45deg);
+}
+.jobImg {
+  height: 650px;
+}
+.brr {
+  height: 1px;
+  width: 100%;
+  background: #00000057;
+}
+.ttitle {
+  z-index: -10;
+}
+
+.jobcard {
+  z-index: 100000;
+}
+
+/* blog */
+.grad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.newsCard {
+  transform: scale(1.1);
+}
+.connectImg {
+  transform: scale(1.7);
+}
+@media screen and (max-width: 1534px) {
+  .jobImg {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .jobImg {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jobImg {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .connectImg {
+    transform: scale(1.5);
+  }
+}
